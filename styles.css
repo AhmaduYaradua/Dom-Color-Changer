@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+}
+
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/* Color palette styling */
+#color-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 50rem;
+  height: 40rem;
+  background-color: blue;
+  border-radius: 50px 0 50px 50px;
+}
+
+/* Button styling */
+#change-color-btn {
+  padding-inline: 4rem;
+  padding-block: 1rem;
+  margin-bottom: 1rem;
+  color: blue;
+  background-color: black;
+  border-radius: 50px 0 50px 50px;
+  border-color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
